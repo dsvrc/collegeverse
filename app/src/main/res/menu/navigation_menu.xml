@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/Home"
+        android:title=""
+        android:icon="@drawable/ic_baseline_home_24"
+        android:enabled="true"/>
+    <item android:id="@+id/Chat"
+        android:title=""
+        android:icon="@android:drawable/stat_notify_chat"
+        android:iconTint="@color/black"
+        android:enabled="true"/>
+    <item android:id="@+id/Add"
+        android:title=""
+        android:icon="@drawable/ic_baseline_add_circle_outline_24"
+        android:enabled="true"/>
+    <item android:id="@+id/Favorite"
+        android:title=""
+        android:icon="@drawable/ic_baseline_favorite_border_24"
+        android:enabled="true"/>
+    <item android:id="@+id/Profile"
+        android:title=""
+        android:icon="@drawable/ic_baseline_person_24"
+        android:enabled="true"/>
+</menu>

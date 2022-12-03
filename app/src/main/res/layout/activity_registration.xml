@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/PersonImage"
+        android:layout_width="87dp"
+        android:layout_height="87dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="32dp"
+        android:onClick="profilepic"
+        android:src="@drawable/logo"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="216dp"
+        android:layout_height="38dp"
+        android:fontFamily="@font/aclonica"
+        android:text="COLLEGEVERSE"
+        android:textAlignment="center"
+        android:textColor="#090909"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.96" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="379dp"
+        android:layout_height="660dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/rectangle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/ViewPager"
+            android:layout_width="349dp"
+            android:layout_height="490dp"
+            android:layout_marginBottom="12dp"
+            app:layout_constraintBottom_toTopOf="@+id/google"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.333"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="254dp"
+                android:layout_height="352dp"
+                app:srcCompat="@drawable/facebook" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="265dp"
+                android:layout_height="376dp"
+                app:srcCompat="@drawable/google" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="462dp"
+                android:layout_height="374dp"
+                app:srcCompat="@drawable/google" />
+
+
+        </androidx.viewpager.widget.ViewPager>
+
+        <ImageView
+            android:id="@+id/twitter"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginBottom="44dp"
+            android:background="@drawable/circle1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/twitter" />
+
+        <ImageView
+            android:id="@+id/google"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="52dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="44dp"
+            android:background="@drawable/circle1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/imageView8"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/twitter"
+            app:srcCompat="@drawable/google" />
+
+        <ImageView
+            android:id="@+id/facebook"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginBottom="44dp"
+            android:background="@drawable/circle1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/facebook" />
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/TabLayout"
+            android:layout_width="358dp"
+            android:layout_height="45dp"
+            android:textAlignment="center"
+            android:textDirection="firstStrong"
+            app:layout_constraintBottom_toBottomOf="@+id/ViewPager"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.476"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.032"
+            app:tabIconTint="@android:color/system_accent1_200"
+            app:tabIndicatorColor="#020202"
+            app:tabInlineLabel="false"
+            app:tabTextAppearance="@style/TextAppearance.AppCompat.Body2"
+            app:tabTextColor="#040303">
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/Tab1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/aclonica"
+                android:text="SIGNIN" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/Tab2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/aclonica"
+                android:text="SIGNUP" />
+        </com.google.android.material.tabs.TabLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

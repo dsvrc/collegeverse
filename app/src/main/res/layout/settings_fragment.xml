@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/SettingsAcount"
+        android:layout_width="340dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="44dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Account"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:backgroundTint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.982"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/SettingsChats"
+        android:layout_width="340dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="108dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Chats"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:backgroundTint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.983"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/SettingsNotifications"
+        android:layout_width="340dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="164dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Notifications"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:backgroundTint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.983"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/settingsStorage"
+        android:layout_width="340dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="220dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Storage and data"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:backgroundTint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.983"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/SettingsLang"
+        android:layout_width="340dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="280dp"
+        android:fontFamily="@font/aclonica"
+        android:text="App Language"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:backgroundTint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.983"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/SettingsHelp"
+        android:layout_width="340dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="344dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Help"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:backgroundTint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.983"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="42dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintEnd_toStartOf="@+id/SettingsAcount"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_manage" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="42dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="352dp"
+        app:layout_constraintEnd_toStartOf="@+id/SettingsAcount"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_info_details" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="42dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="288dp"
+        app:layout_constraintEnd_toStartOf="@+id/SettingsAcount"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_mapmode" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="42dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="116dp"
+        app:layout_constraintEnd_toStartOf="@+id/SettingsAcount"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/sym_action_chat" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="35dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="176dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintEnd_toStartOf="@+id/SettingsAcount"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_popup_reminder" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="42dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="228dp"
+        app:layout_constraintEnd_toStartOf="@+id/SettingsAcount"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_popup_sync" />
+
+    <Button
+        android:id="@+id/settingslogout"
+        android:layout_width="100dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="76dp"
+        android:onClick="logout"
+        android:text="logout"
+        app:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
