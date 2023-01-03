@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "collegeverse"
+rootProject.name = "Clg Share"
 include ':app'

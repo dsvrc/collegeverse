@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "310655267156",
+    "project_id": "clg-share",
+    "storage_bucket": "clg-share.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:310655267156:android:7a165c22b8a4c1dc6b58c1",
+        "android_client_info": {
+          "package_name": "com.example.clgshare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "310655267156-6kv3te16caajmptb257asf603a9f3s1m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDu3CO62oqLtnR-VdpOYYDZX9w1Wgo6Aoo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "310655267156-6kv3te16caajmptb257asf603a9f3s1m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
